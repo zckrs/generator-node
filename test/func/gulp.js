@@ -88,7 +88,7 @@ describe('node:gulp', function () {
 
   describe('--projectRoot', function () {
     before(function (done) {
-      helpers.run(path.join(__dirname, '../generators/gulp'))
+      helpers.run(path.join(__dirname, '../../generators/gulp'))
         .withOptions({
           projectRoot: 'generators'
         })
